@@ -1,0 +1,10 @@
+html {
+  background: hsl(0 0% 10%);
+}
+#app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-height: 100vh;
+  place-content: center;
+  filter: invert();
+}
